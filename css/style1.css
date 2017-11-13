@@ -1,0 +1,613 @@
+.slider {
+    position: relative;
+}
+
+.slider .header1 {
+    position: absolute;
+    top: 15px;
+    width: 100%
+}
+
+.slider .header1 img {
+    max-width: 100px;
+    display: block;
+    margin: auto;
+    opacity: .4;
+}
+
+.slider .header1 p.p1 {
+    position: absolute;
+    top: 35px;
+    left: 75px;
+    font-size: 18px;
+}
+
+.slider .header1 p.p2 {
+    position: absolute;
+    top: 35px;
+}
+
+.slider .header1 p a {
+    color: darkorange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.slider .header1 p a:hover {
+    color: #F4FF81;
+}
+
+.slider .carousel-control.left {
+    background-image: none;
+}
+
+.slider .carousel-control.right {
+    background-image: none;
+}
+
+.slider .carousel-content img {
+    width: 100%;
+}
+
+.slider .carousel-caption {
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    left: 25%;
+}
+
+.pagination {
+    position: absolute;
+    margin-top: 150px;
+    color: white;
+}
+
+.pagination h6.he {
+    color: darkorange;
+    float: left;
+    margin-top: -1px;
+    padding-right: 5px;
+}
+
+.pagination h1,
+h6 {
+    font-weight: bolder;
+}
+
+.pagination h6 {
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.navbar {
+    background: none;
+    border: none;
+    margin-left: 0;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+.affix {
+    top: 0px;
+    width: 100%;
+    background: #171918;
+    border-bottom: 2px solid darkorange;
+    opacity: .9;
+}
+
+.navbar ul {
+    padding-left: 21%;
+}
+
+.navbr .navbar ul li a {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.navbr .navbar ul li a:hover {
+    color: #F4FF81;
+}
+
+.slider .carousel-caption .button {
+    border: 2px white solid;
+    color: darkorange;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: none;
+    transition: background .3s, color .3s, color .3s;
+    font-weight: bolder;
+}
+
+.slider .carousel-caption .button:hover {
+    background: darkorange;
+    color: white;
+    border-color: darkorange;
+}
+
+.slider .carousel-caption h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+.divisions .col-lg-4.col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.divisions .imadesc {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -50px;
+    background: white;
+}
+
+.divisions .imadesc img {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.divisions .imadesc h2 {
+    font-family: arial;
+    font-weight: bolder;
+}
+
+.divisions .imadesc p {
+    font-family: cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+hr.ab {
+    border-color: red;
+    border: 5px solid #eee;
+    width: 90%;
+}
+
+.description {
+    text-align: center;
+}
+
+.description h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: darkorange;
+}
+
+.description p {
+    text-indent: 25;
+    font-family: cursive;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.description .button {
+    border: 2px darkorange solid;
+    color: darkorange;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: none;
+    transition: background .3s, color .3s, border-color .3s;
+    font-weight: bolder;
+}
+
+.description .button:hover {
+    background: darkorange;
+    color: white;
+    border-color: darkorange;
+}
+
+.footer {
+    margin-top: 35px;
+    background: #F4FF81;
+}
+
+.footer .foot1 {
+    font-family: cursive;
+}
+
+.footer .foot1 img {
+    max-width: 150px;
+    margin: 20px 0px 20px 20px;
+}
+
+.footer ul li {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer p {
+    font-weight: 2000;
+}
+
+.footer .foot4 h5 {
+    font-weight: bolder;
+}
+
+.footer ul li a {
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: darkorange;
+}
+
+.icobord {
+    background: darkorange;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.icobord i {
+    padding: 11px;
+    font-size: 20px;
+}
+
+.content a {
+    color: black;
+}
+
+.footer h3,
+.foot3 h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.footer hr.bc {
+    border: 2px solid red;
+    width: 40px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.footer ul {
+    list-style-type: none;
+    font-family: cursive;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer a {
+    color: black;
+}
+
+.footer ul li {
+    padding-bottom: 15px;
+}
+
+.footer .foot4 a {
+    text-decoration: none
+}
+
+.footer .foot4 a:hover {
+    color: darkorange;
+}
+
+.footer .foot4 h6 {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.footer p {
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+.foot {
+    background: darkorange;
+    text-align: center;
+    font-family: cursive;
+}
+
+.foot p {
+    margin-bottom: 0px;
+}
+
+.breadcrumb {
+    position: relative;
+    padding: 0px;
+}
+
+.breadcrumb img.bc {
+    width: 100%;
+    height: 320px;
+}
+
+.breadcrumb .header1 {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+}
+
+.breadcrumb .header1 img {
+    max-width: 100px;
+    display: block;
+    margin: auto;
+    opacity: .4;
+}
+
+.breadcrumb .header1 p.p1 {
+    position: absolute;
+    top: 35px;
+    left: 75px;
+    font-size: 18px;
+}
+
+.breadcrumb .header1 p.p2 {
+    position: absolute;
+    top: 35px;
+}
+
+.breadcrumb .header1 p a {
+    color: darkorange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.breadcrumb .header1 p a:hover {
+    color: #F4FF81;
+}
+
+.headesc h1 {
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-family: sans-serif;
+}
+
+.headesc h2 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.headesc p {
+    text-indent: 4px;
+    font-family: cursive;
+    font-size: 15px;
+    display: block;
+    margin: 20px;
+}
+
+.headesc .imadesc {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.headesc .header1 .imadesc img {
+    margin: 0px 20px 20px 10px;
+}
+
+.imag h5 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.imag img {
+    width: 283px;
+    height: 235px;
+    margin-bottom: 9px;
+    margin-top: 30px;
+}
+
+.content p.headr {
+    text-align: center;
+    padding: 35px 200px 15px 200px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.content span {
+    float: left;
+    font-size: 25px;
+    padding: 12px 13px 0px 15px;
+}
+
+.content .bg {
+    height: 120px;
+    float: left;
+}
+
+.content p,
+h5 {
+    font-family: cursive;
+}
+
+.content .de {
+    margin-top: 20px;
+}
+
+.content .box {
+    height: 150px;
+}
+
+.content .de h4,
+h5 {
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.content .bacgrnd {
+    background: darkorange;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 40px;
+}
+
+.content i {
+    float: left;
+    font-size: 20px;
+}
+
+.content h4 {
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 1px solid darkorange;
+}
+
+input[type=submit] {
+    width: 12%;
+    background-color: darkorange;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+input[type=submit]:hover {
+    background-color: darkslategrey;
+}
+
+textarea {
+    width: 100%;
+    height: 275px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+form {
+    font-family: cursive;
+}
+
+.content .h2 {
+    text-align: center;
+}
+
+img.calendar {
+    display: block;
+    margin: auto;
+    height: 700px;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .slider .header1 img {
+        display: none;
+    }
+    .slider p.p1,
+    p.p2 {
+        display: none;
+    }
+    .slider ul {
+        padding-left: 8%;
+    }
+    ima
+}
+
+@media only screen and (max-device-width: 568px) {
+    .slider .header1 img {
+        display: none;
+    }
+    p.p1,
+    p.p2 {
+        display: none;
+    }
+    .breadcrumb .header1 img {
+        display: none;
+    }
+    .divisions .imadesc {
+        height: 400px;
+    }
+    .footer .foot1 img {
+        display: block;
+        margin: auto;
+    }
+    .footer .icobord {
+        margin-left: 20px;
+    }
+    .slider ul {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .slider li {
+        background: #171918;
+        width: 100%;
+        border-bottom: .5px solid #f2f2f2;
+        opacity: .6;
+    }
+    .header1 .navbr .navbar .collapse {
+        padding: 0px;
+    }
+    .breadcrumb li {
+        background: #171918;
+        width: 100%;
+        border-bottom: .5px solid #f2f2f2;
+    }
+    .breadcrumb ul {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .pagination {
+        width: 130px;
+    }
+    .pagination h6 {
+        font-size: 10px;
+    }
+    .pagination h1 {
+        font-size: 20px;
+    }
+    .headesc .header1 .imadesc img {
+        padding: 0px;
+        margin: 0px;
+    }
+    .content p.headr {
+        text-align: center;
+        padding: 0px;
+    }
+    input[type=submit] {
+        width: 100px;
+    }
+    .content iframe {
+        width: 100%;
+    }
+}
